@@ -17,7 +17,7 @@ main(int argc, char **argv)
     int recvlen;            /* # bytes received */
     int fd;             /* our socket */
     int msgcnt = 0;         /* count # of messages we received */
-    unsigned char buf[BUFSIZE]; /* receive buffer */
+    char buf[BUFSIZE]; /* receive buffer */
 
 
     /* create a UDP socket */
